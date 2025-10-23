@@ -6,8 +6,8 @@ from tqdm import tqdm
 
 # OpenSubtitles credentials
 USERNAME = "soliton"
-PASSWORD = "@hd4x59u%eWDDaj"
-API_KEY = "JO6ATseWoTYLvN499loNz0SnUmrOSoWS"
+PASSWORD = "@hdxxxxxxx"
+API_KEY = "JO6ATxxxxxxxxxx"
 LANGUAGE = "cs"  # Czech language code
 
 # App information
@@ -231,4 +231,5 @@ if __name__ == "__main__":
         sys.exit(1)
     except Exception as e:
         print(f"\nUnexpected error: {e}")
+
         sys.exit(1)
